@@ -19,6 +19,15 @@ html {
   text-align: center;
 }
 
+.headshot {
+  max-width: 300px;       /* Adjust maximum width as desired */
+  width: 100%;            /* Responsive scaling */
+  height: auto;           /* Maintain aspect ratio */
+  border-radius: 50%;     /* Optional: Circular crop effect */
+  display: block;
+  margin: 20px auto;      /* Center the image */
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 14px;
