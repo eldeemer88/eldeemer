@@ -1,1 +1,2 @@
-# GitHub Pages Personal/Acadenic Website
+# GitHub Pages Personal/Academic Website
+Access via: https://eldeemer88.github.io/eldeemer/
