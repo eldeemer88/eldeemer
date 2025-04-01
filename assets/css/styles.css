@@ -42,7 +42,7 @@ html {
 }
 
 .name-header {
-  text-align: right;
+  text-align: left;
   font-size: 2rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #444;
