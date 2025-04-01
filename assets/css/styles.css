@@ -130,3 +130,8 @@ a:hover {
   font-size: 0.9rem;
 }
 
+.page-wrapper {
+  padding: 4vw; /* Adds margin proportional to screen width */
+  box-sizing: border-box;
+}
+
