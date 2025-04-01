@@ -40,6 +40,21 @@ html {
     font-size: 12px;
   }
 }
+
+.name-header {
+  text-align: right;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.name-header .first-name,
+.name-header .last-name {
+  display: block;
+}
+
+
 body {
   margin: 0;
   font-family: 'Georgia', serif;
