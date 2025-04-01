@@ -49,8 +49,7 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.name-header .first-name,
-.name-header .last-name {
+.name-header .name{
   display: block;
 }
 
@@ -131,7 +130,7 @@ a:hover {
 }
 
 .page-wrapper {
-  padding: 4vw; /* Adds margin proportional to screen width */
+  padding: 3vw; /* Adds margin proportional to screen width */
   box-sizing: border-box;
 }
 
