@@ -20,12 +20,13 @@ html {
 }
 
 .headshot {
-  max-width: 300px;       /* Adjust maximum width as desired */
-  width: 100%;            /* Responsive scaling */
-  height: auto;           /* Maintain aspect ratio */
-  border-radius: 50%;     /* Optional: Circular crop effect */
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;     /* Rounded rectangle corners */
+  border: 2px solid #ccc;  /* Optional: adds a soft border */
   display: block;
-  margin: 20px auto;      /* Center the image */
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -39,3 +40,79 @@ html {
     font-size: 12px;
   }
 }
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #1e1e1e;
+  color: #eaeaea;
+}
+
+a {
+  color: #5080c0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.sidebar {
+  flex: 1 1 200px;
+  margin-right: 2rem;
+}
+
+.sidebar h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin: 0.5rem 0;
+}
+
+.main-content {
+  flex: 3 1 600px;
+  text-align: center;
+}
+
+.headshot {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 2px solid #444;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #333;
+  color: #eaeaea;
+  border: 1px solid #555;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
